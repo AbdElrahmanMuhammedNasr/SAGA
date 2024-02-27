@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4523f09-9453-4c2d-a6cd-6097701f66fe" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/eventdriven/api/command/handler/OrderEventHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/eventdriven/api/command/handler/OrderEventHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/eventdriven/domain/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/eventdriven/domain/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/eventdriven/saga/OrderSaga.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/eventdriven/saga/OrderSaga.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/eventdriven/domain/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/eventdriven/domain/Order.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/eventdriven/saga/OrderSaga.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/eventdriven/saga/OrderSaga.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../payment/src/main/java/com/example/payment/api/command/handler/PaymentEventHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../payment/src/main/java/com/example/payment/api/command/handler/PaymentEventHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../payment/src/main/java/com/example/payment/domain/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../payment/src/main/java/com/example/payment/domain/Payment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../payment/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../payment/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../user/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +103,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.OrderApplication">
+  <component name="RunManager" selected="Spring Boot.PaymentApplication">
     <configuration name="generated-requests | #70" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="70" requestIdentifier="#70" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -153,7 +147,7 @@
       <workItem from="1709023772008" duration="6000" />
       <workItem from="1709025045192" duration="112000" />
       <workItem from="1709025164285" duration="125000" />
-      <workItem from="1709030771600" duration="5287000" />
+      <workItem from="1709030771600" duration="5700000" />
     </task>
     <servers />
   </component>
