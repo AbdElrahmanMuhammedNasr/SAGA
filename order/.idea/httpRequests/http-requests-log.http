@@ -1,0 +1,80 @@
+POST http://localhost:2222/product
+Content-Type: application/json
+Content-Length: 42
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "test253692",
+  "count": 360
+}
+
+<> 2024-02-27T165245.200.txt
+
+###
+
+POST http://localhost:2222/product
+Content-Type: application/json
+Content-Length: 37
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "users",
+  "count": 360
+}
+
+<> 2024-02-27T164942.200.txt
+
+###
+
+POST http://localhost:2222/product
+Content-Type: application/json
+Content-Length: 38
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "fteecf",
+  "count": 360
+}
+
+<> 2024-02-27T164838.200.txt
+
+###
+
+POST http://localhost:2222/product
+Content-Type: application/json
+Content-Length: 38
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "fteecf",
+  "count": 360
+}
+
+<> 2024-02-27T164105.200.txt
+
+###
+
+POST http://localhost:2222/product
+Content-Type: application/json
+Content-Length: 38
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "fteecf",
+  "count": 360
+}
+
+<> 2024-02-27T164041.200.txt
+
+###
+

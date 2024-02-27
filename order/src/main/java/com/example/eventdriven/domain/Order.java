@@ -24,4 +24,6 @@ public class Order  implements Serializable {
 
     @Column(name = "count")
     int count;
+
+    String status;
 }

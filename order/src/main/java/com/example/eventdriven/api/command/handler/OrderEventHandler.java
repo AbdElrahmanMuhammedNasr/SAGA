@@ -20,6 +20,7 @@ public class OrderEventHandler {
         order.setProductId(event.getProductId());
         order.setName(event.getName());
         order.setCount(event.getCount());
+        order.setStatus("CREATED");
         orderRepo.save(order);
     }
 

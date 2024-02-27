@@ -20,6 +20,7 @@ public class PaymentEventHandler {
         Payment payment = new Payment();
         payment.setPaymentId(event.getPaymentId());
         payment.setOrderId(event.getProductId());
+        payment.setUserId(event.getUserId());
         payment.setDate(Instant.now());
         paymentRepo.save(payment);
     }

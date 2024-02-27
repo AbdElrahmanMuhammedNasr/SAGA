@@ -24,6 +24,7 @@ public class Payment   implements Serializable {
     String paymentId;
 
     String orderId;
+    String userId;
 
     Instant date= Instant.now();
 }

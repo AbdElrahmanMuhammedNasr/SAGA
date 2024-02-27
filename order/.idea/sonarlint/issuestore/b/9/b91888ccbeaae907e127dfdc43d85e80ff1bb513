@@ -1,0 +1,10 @@
+
+k
+java:S1128"URemove this unused import 'com.thoughtworks.xstream.security.WildcardTypePermission'.(´„Âí
+]
+java:S1128"GRemove this unused import 'org.axonframework.serialization.Serializer'.(³¨ðÞ
+m
+java:S1128"RRemove this unused import 'org.axonframework.serialization.xml.XStreamSerializer'.(Ç¨ø¹ÿÿÿÿÿ
+a
+java:S1128
+"KRemove this unused import 'org.springframework.context.annotation.Primary'.(“ð›ß
