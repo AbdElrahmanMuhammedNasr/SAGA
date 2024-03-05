@@ -1,11 +1,14 @@
 package com.example.eventdriven.api.command.aggregate;
 
 
+import com.example.eventdriven.api.command.command.CancelProductCommand;
 import com.example.eventdriven.api.command.command.CompleteProductCommand;
 import com.example.eventdriven.api.command.command.CreateProductCommand;
+import com.example.eventdriven.api.command.events.CancelProductEvent;
 import com.example.eventdriven.api.command.events.ProductCompleteEvent;
 import com.example.eventdriven.api.command.events.ProductCreatedEvent;
-import lombok.NoArgsConstructor;
+import lombok.AccessLevel;
+import lombok.experimental.FieldDefaults;
 import org.axonframework.commandhandling.CommandHandler;
 import org.axonframework.eventsourcing.EventSourcingHandler;
 import org.axonframework.modelling.command.AggregateIdentifier;
@@ -14,13 +17,16 @@ import org.axonframework.modelling.command.AggregateLifecycle;
 import org.springframework.beans.BeanUtils;
 
 @Aggregate
-@NoArgsConstructor
+@FieldDefaults(level = AccessLevel.PRIVATE)
 public class ProductAggregate {
+    protected ProductAggregate() {
 
+    }
     @AggregateIdentifier
     String productId;
     String name;
     int count;
+    String status;
 
     @CommandHandler
     public ProductAggregate(CreateProductCommand command) {
@@ -34,7 +40,7 @@ public class ProductAggregate {
     }
 
 
-    @EventSourcingHandler
+    @EventSourcingHandler(payloadType = ProductCreatedEvent.class)
     public void  on(ProductCreatedEvent event) {
         this.productId = event.getProductId();
         this.name = event.getName();
@@ -42,7 +48,7 @@ public class ProductAggregate {
     }
 
 
-    @CommandHandler
+    @CommandHandler(payloadType = CompleteProductCommand.class)
     public ProductAggregate(CompleteProductCommand command) {
         ProductCompleteEvent productCompleteEvent = new ProductCompleteEvent();
         productCompleteEvent.setProductId(command.getProductId());
@@ -52,6 +58,20 @@ public class ProductAggregate {
     @EventSourcingHandler
     public void  on(ProductCompleteEvent event) {
         this.productId = event.getProductId();
+    }
+
+
+    @CommandHandler
+    public void handleCancelProductCommand(CancelProductCommand command){
+        CancelProductEvent cancelEvent = CancelProductEvent.builder().status(command.getStatus()).productId(command.getProductId()).build();
+        AggregateLifecycle.apply(cancelEvent);
+
+    }
+
+    @EventSourcingHandler(payloadType = CancelProductEvent.class)
+    public void  onHandleCancelProductCommand(CancelProductEvent event) {
+        this.productId  = event.getProductId();
+        this.status = event.getStatus();
     }
 
 }

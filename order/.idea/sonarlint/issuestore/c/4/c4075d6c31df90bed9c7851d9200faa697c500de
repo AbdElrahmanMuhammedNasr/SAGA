@@ -1,0 +1,21 @@
+
+X	java:S125"<This block of commented-out lines of code should be removed.(á‚ª¶8ºûîá1
+w
+java:S1128"ZRemove this unused import 'org.axonframework.eventsourcing.eventstore.EventStorageEngine'.(Üº®8»ûîá1
+„
+java:S1128"bRemove this unused import 'org.axonframework.eventsourcing.eventstore.jdbc.HsqlEventTableFactory'.(çªÈâüÿÿÿÿ8»ûîá1
+€
+java:S1128"cRemove this unused import 'org.axonframework.eventsourcing.eventstore.jdbc.JdbcEventStorageEngine'.(¦âãß8¼ûîá1
+
+java:S1128"]Remove this unused import 'org.axonframework.spring.jdbc.SpringDataSourceConnectionProvider'.(ùÚûÿÿÿÿ8¼ûîá1
+€
+java:S1128"cRemove this unused import 'org.axonframework.spring.messaging.unitofwork.SpringTransactionManager'.(°¿¤8¼ûîá1
+e
+java:S1128
+"HRemove this unused import 'org.springframework.context.annotation.Bean'.(‚î‰Ş8¼ûîá1
+s
+java:S1128"QRemove this unused import 'org.springframework.context.annotation.Configuration'.(¬²Úäşÿÿÿÿ8¼ûîá1
+t
+java:S1128"WRemove this unused import 'org.springframework.transaction.PlatformTransactionManager'.(…­ÀŞ8½ûîá1
+S
+java:S1128"1Remove this unused import 'javax.sql.DataSource'.(ÉòÂ¿úÿÿÿÿ8½ûîá1

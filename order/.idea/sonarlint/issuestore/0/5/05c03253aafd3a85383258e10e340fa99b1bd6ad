@@ -1,13 +1,14 @@
 
 
-java:S1186""€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ôæ³Ö8£³£ØŞ1
+java:S1186!"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(í¹—Ú8–÷Òñß1
 d
-java:S6813 "BRemove this field injection and use constructor injection instead.(õº—Öøÿÿÿÿ8“¾¥ØŞ1
+java:S6813"BRemove this field injection and use constructor injection instead.(õº—Öøÿÿÿÿ8—÷Òñß1
 _
-java:S6813!"BRemove this field injection and use constructor injection instead.(™ö°Æ8”¾¥ØŞ1
+java:S6813 "BRemove this field injection and use constructor injection instead.(™ö°Æ8—÷Òñß1
 R
-java:S2065 "0Remove the "transient" modifier from this field.(õº—Öøÿÿÿÿ8õäú×Ş1
+java:S2065"0Remove the "transient" modifier from this field.(õº—Öøÿÿÿÿ8™÷Òñß1
 M
-java:S2065!"0Remove the "transient" modifier from this field.(™ö°Æ8öäú×Ş1
-E	java:S1087")Either remove or fill this block of code.(”ı¾8ÿäú×Ş1
-E	java:S108F")Either remove or fill this block of code.(”ı¾8€åú×Ş1
+java:S2065 "0Remove the "transient" modifier from this field.(™ö°Æ8™÷Òñß1
+E	java:S108M")Either remove or fill this block of code.(”ı¾8Ÿ÷Òñß1
+:
+java:S1128"Remove this duplicated import.(©ûÚg8Éşª‚á1

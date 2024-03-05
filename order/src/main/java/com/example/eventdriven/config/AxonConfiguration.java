@@ -2,12 +2,8 @@ package com.example.eventdriven.config;
 
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.security.AnyTypePermission;
-import com.thoughtworks.xstream.security.WildcardTypePermission;
-import org.axonframework.serialization.Serializer;
-import org.axonframework.serialization.xml.XStreamSerializer;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Primary;
 
 @Configuration
 public class AxonConfiguration {
@@ -18,4 +14,70 @@ public class AxonConfiguration {
         xStream.addPermission(AnyTypePermission.ANY);
         return xStream;
     }
+
+
+//    @Bean
+//    public TransactionManager axonTransactionManager(PlatformTransactionManager transactionManager) {
+//        return new SpringTransactionManager(transactionManager);
+//    }
+//
+//
+//
+//
+//
+//
+//    @Qualifier("eventSerializer")
+//    @Bean
+//    public Serializer eventSerializer() {
+//        return JacksonSerializer.builder().build();
+//    }
+//
+//    @Bean
+//    public EventStore eventStore(EventStorageEngine storageEngine, GlobalMetricRegistry metricRegistry) {
+//        return EmbeddedEventStore.builder()
+//                .storageEngine(storageEngine)
+//                .messageMonitor(metricRegistry.registerEventBus("eventStore"))
+//                 .build();
+//    }
+//
+//    @Bean
+//    public EventStorageEngine eventStorageEngine(Serializer serializer,
+//                                                 PersistenceExceptionResolver persistenceExceptionResolver,
+//                                                 @Qualifier("eventSerializer") Serializer eventSerializer,
+//                                                 EntityManagerProvider entityManagerProvider,
+//                                                 TransactionManager transactionManager) throws SQLException {
+//
+//        JpaEventStorageEngine eventStorageEngine = JpaEventStorageEngine.builder()
+//                .snapshotSerializer(serializer)
+//                .persistenceExceptionResolver(persistenceExceptionResolver)
+//                .eventSerializer(serializer)
+//                .entityManagerProvider(entityManagerProvider)
+//                .transactionManager(transactionManager)
+//                .build();
+//
+//        return eventStorageEngine;
+//    }
+
+
+
+//    @Bean
+//    public EventStore eventStore(EventStorageEngine storageEngine,
+//                                 GlobalMetricRegistry metricRegistry) {
+//        return EmbeddedEventStore.builder()
+//                .storageEngine(storageEngine)
+//                .messageMonitor(metricRegistry.registerEventBus("eventStore"))
+//                  .build();
+//    }
+//
+//     @Bean
+//    public EventStorageEngine storageEngine(MongoDatabaseFactory factory,
+//                                            TransactionManager transactionManager) {
+//        return MongoEventStorageEngine.builder()
+//                .mongoTemplate(SpringMongoTemplate.builder().factory(factory).build())
+//                .transactionManager(transactionManager)
+//                .build();
+//    }
+
+
+
 }

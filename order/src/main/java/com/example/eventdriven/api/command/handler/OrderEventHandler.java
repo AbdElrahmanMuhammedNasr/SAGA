@@ -1,5 +1,6 @@
 package com.example.eventdriven.api.command.handler;
 
+import com.example.eventdriven.api.command.events.CancelProductEvent;
 import com.example.eventdriven.api.command.events.ProductCompleteEvent;
 import com.example.eventdriven.domain.Order;
 import com.example.eventdriven.api.command.events.ProductCreatedEvent;
@@ -27,5 +28,16 @@ public class OrderEventHandler {
     @EventHandler
     public void on(ProductCompleteEvent event) {
          System.out.println("sending email");
+    }
+
+    @EventHandler
+    public void on(CancelProductEvent event) {
+        System.out.println("cancle ----------------");
+
+        orderRepo.findById(event.getProductId())
+                .ifPresent(order -> {
+                    order.setStatus(event.getStatus());
+                    orderRepo.save(order);
+                });
     }
 }
