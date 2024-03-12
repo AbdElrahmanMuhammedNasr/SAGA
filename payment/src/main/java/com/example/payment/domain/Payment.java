@@ -22,9 +22,8 @@ public class Payment   implements Serializable {
     @Id
     @Column(name = "id")
     String paymentId;
-
     String orderId;
     String userId;
-
     Instant date= Instant.now();
+    String status;
 }

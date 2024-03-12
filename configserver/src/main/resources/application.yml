@@ -1,0 +1,22 @@
+server:
+  port: 3030
+spring:
+  application:
+    name:  config-server
+  profiles:
+#    active:  git
+    active:  native
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: "classpath:./config/order ,  classpath:./config/user"
+#          git:
+#            uri: "http://"
+#            default-label: "master"
+#            timeout: 2
+#            clone-on-start: true
+#            force-pull: true
+#            username: "git"
+#            password: "git"
+

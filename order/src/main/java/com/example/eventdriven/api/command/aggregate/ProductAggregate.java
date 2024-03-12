@@ -4,7 +4,7 @@ package com.example.eventdriven.api.command.aggregate;
 import com.example.eventdriven.api.command.command.CancelProductCommand;
 import com.example.eventdriven.api.command.command.CompleteProductCommand;
 import com.example.eventdriven.api.command.command.CreateProductCommand;
-import com.example.eventdriven.api.command.events.CancelProductEvent;
+import com.example.core.events.CancelProductEvent;
 import com.example.eventdriven.api.command.events.ProductCompleteEvent;
 import com.example.eventdriven.api.command.events.ProductCreatedEvent;
 import lombok.AccessLevel;
@@ -49,14 +49,14 @@ public class ProductAggregate {
 
 
     @CommandHandler(payloadType = CompleteProductCommand.class)
-    public ProductAggregate(CompleteProductCommand command) {
+    public void handleCompleteProductCommand(CompleteProductCommand command) {
         ProductCompleteEvent productCompleteEvent = new ProductCompleteEvent();
         productCompleteEvent.setProductId(command.getProductId());
         AggregateLifecycle.apply(productCompleteEvent);
     }
 
     @EventSourcingHandler
-    public void  on(ProductCompleteEvent event) {
+    public void  onHandleCompleteProductCommand(ProductCompleteEvent event) {
         this.productId = event.getProductId();
     }
 

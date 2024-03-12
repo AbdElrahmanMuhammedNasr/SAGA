@@ -1,800 +1,450 @@
-POST http://localhost:2222/product
-Content-Type: application/json
-Content-Length: 38
+GET http://localhost:8080/services/order/service/info
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{
-  "name": "habd;e",
-  "count": 404
-}
-
-<> 2024-03-05T233041.200.txt
+<> 2024-03-12T033857.200.json
 
 ###
 
-POST http://localhost:2222/product
-Content-Type: application/json
-Content-Length: 40
+GET http://localhost:8080/services/order/service/info
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{
-  "name": "error300",
-  "count": 404
-}
-
-<> 2024-03-05T232846.200.txt
+<> 2024-03-12T033632.200.json
 
 ###
 
-POST http://localhost:2222/product
-Content-Type: application/json
-Content-Length: 40
+GET http://localhost:8080/services/order/service/info
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{
-  "name": "error300",
-  "count": 404
-}
-
-<> 2024-03-05T232753.200.txt
+<> 2024-03-12T033407.200.json
 
 ###
 
-POST http://localhost:2222/product
-Content-Type: application/json
-Content-Length: 40
+GET http://localhost:8080/services/order/service/info
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{
-  "name": "error300",
-  "count": 404
-}
-
-<> 2024-03-05T232645.200.txt
+<> 2024-03-12T033315.200.json
 
 ###
 
-POST http://localhost:2222/product
-Content-Type: application/json
-Content-Length: 40
+GET http://localhost:8080/services/order/service/info
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{
-  "name": "error300",
-  "count": 404
-}
-
-<> 2024-03-05T232041.200.txt
+<> 2024-03-12T033313.200.json
 
 ###
 
-POST http://localhost:2222/product
-Content-Type: application/json
-Content-Length: 40
+GET http://localhost:8080/services/order/service/info
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{
-  "name": "error300",
-  "count": 404
-}
-
-<> 2024-03-05T231856.200.txt
+<> 2024-03-12T033246.200.json
 
 ###
 
-POST http://localhost:2222/product
-Content-Type: application/json
-Content-Length: 40
+GET http://localhost:8080/services/order/service/info
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{
-  "name": "error300",
-  "count": 404
-}
-
-<> 2024-03-05T231551.200.txt
+<> 2024-03-12T033231.404.json
 
 ###
 
-POST http://localhost:2222/product
-Content-Type: application/json
-Content-Length: 40
+GET http://localhost:8080/services/order/service/info
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{
-  "name": "error300",
-  "count": 404
-}
-
-<> 2024-03-05T231045.200.txt
+<> 2024-03-12T033229.404.json
 
 ###
 
-POST http://localhost:2222/product
-Content-Type: application/json
-Content-Length: 42
+GET http://localhost:8080/services/order/service/info
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{
-  "name": "error40212",
-  "count": 404
-}
-
-<> 2024-03-05T230148.200.txt
+<> 2024-03-12T033227.404.json
 
 ###
 
-POST http://localhost:2222/product
-Content-Type: application/json
-Content-Length: 42
+GET http://localhost:8080/services/order/service/info
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{
-  "name": "error40212",
-  "count": 404
-}
-
-<> 2024-03-05T230106.500.json
+<> 2024-03-12T033226.404.json
 
 ###
 
-POST http://localhost:2222/product
-Content-Type: application/json
-Content-Length: 42
+GET http://localhost:8080/services/order/service/info
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{
-  "name": "error40212",
-  "count": 404
-}
-
-<> 2024-03-05T225913.200.txt
+<> 2024-03-12T033214.404.json
 
 ###
 
-POST http://localhost:2222/product
-Content-Type: application/json
-Content-Length: 42
+GET http://localhost:8080/services/order/service/info
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{
-  "name": "error40212",
-  "count": 404
-}
-
-<> 2024-03-05T225402.200.txt
+<> 2024-03-12T033213.404.json
 
 ###
 
-POST http://localhost:2222/product
-Content-Type: application/json
-Content-Length: 42
+GET http://localhost:8080/services/order/service/info
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{
-  "name": "error40212",
-  "count": 404
-}
-
-<> 2024-03-05T224606.200.txt
+<> 2024-03-12T033210.404.json
 
 ###
 
-POST http://localhost:2222/product
-Content-Type: application/json
-Content-Length: 42
+GET http://localhost:8080/services/order/service/info
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{
-  "name": "error40212",
-  "count": 404
-}
-
-<> 2024-03-05T221940.200.txt
+<> 2024-03-12T033159.404.json
 
 ###
 
-POST http://localhost:2222/product
-Content-Type: application/json
-Content-Length: 42
+GET http://localhost:8080/services/order/service/info
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{
-  "name": "error40212",
-  "count": 404
-}
-
-<> 2024-03-05T221610.200.txt
+<> 2024-03-12T033157.404.json
 
 ###
 
-POST http://localhost:2222/product
-Content-Type: application/json
-Content-Length: 42
+GET http://localhost:8080/services/order/service/info
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{
-  "name": "error40212",
-  "count": 404
-}
-
-<> 2024-03-05T220246.200.txt
+<> 2024-03-12T033156.404.json
 
 ###
 
-POST http://localhost:2222/product
-Content-Type: application/json
-Content-Length: 41
+GET http://localhost:8080/services/order/service/info
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{
-  "name": "error4021",
-  "count": 404
-}
-
-<> 2024-03-05T215500.200.txt
+<> 2024-03-12T033154.404.json
 
 ###
 
-POST http://localhost:2222/product
-Content-Type: application/json
-Content-Length: 40
+GET http://localhost:8080/services/order/service/info
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{
-  "name": "error402",
-  "count": 404
-}
-
-<> 2024-03-05T214003.200.txt
+<> 2024-03-12T033152.404.json
 
 ###
 
-POST http://localhost:2222/product
-Content-Type: application/json
-Content-Length: 40
+GET http://localhost:8080/services/order/service/info
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{
-  "name": "error402",
-  "count": 404
-}
-
-<> 2024-03-05T213925.200.txt
+<> 2024-03-12T033151.404.json
 
 ###
 
-POST http://localhost:2222/product
-Content-Type: application/json
-Content-Length: 40
+GET http://localhost:8080/services/order/service/info
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{
-  "name": "error402",
-  "count": 404
-}
-
-<> 2024-03-05T213405.200.txt
+<> 2024-03-12T033149.404.json
 
 ###
 
-POST http://localhost:2222/product
-Content-Type: application/json
-Content-Length: 40
+GET http://localhost:8080/services/order/service/info
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{
-  "name": "error402",
-  "count": 404
-}
-
-<> 2024-03-05T212624.200.txt
+<> 2024-03-12T033143.404.json
 
 ###
 
-POST http://localhost:2222/product
-Content-Type: application/json
-Content-Length: 40
+GET http://localhost:8080/services/order/service/info
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{
-  "name": "error402",
-  "count": 404
-}
-
-<> 2024-03-05T212504.200.txt
+<> 2024-03-12T033140.500.json
 
 ###
 
-POST http://localhost:2222/product
-Content-Type: application/json
-Content-Length: 38
+GET http://localhost:8080/services/order/service/info
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{
-  "name": "error4",
-  "count": 404
-}
-
-<> 2024-03-03T123129.200.txt
+<> 2024-03-12T032720.200.json
 
 ###
 
-POST http://localhost:2222/product
-Content-Type: application/json
-Content-Length: 38
+GET http://localhost:8080/services/order/service/info
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{
-  "name": "error4",
-  "count": 404
-}
-
-<> 2024-03-02T115326.500.json
+<> 2024-03-12T032713.200.json
 
 ###
 
-POST http://localhost:2222/product
-Content-Type: application/json
-Content-Length: 38
+GET http://localhost:8080/services/order/service/info
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{
-  "name": "error4",
-  "count": 404
-}
-
-<> 2024-03-02T115154.200.txt
+<> 2024-03-12T032711.404.json
 
 ###
 
-POST http://localhost:2222/product
-Content-Type: application/json
-Content-Length: 38
+GET http://localhost:8080/services/order/service/info
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{
-  "name": "error4",
-  "count": 404
-}
-
-<> 2024-03-02T113951.200.txt
+<> 2024-03-12T032709.404.json
 
 ###
 
-POST http://localhost:2222/product
-Content-Type: application/json
-Content-Length: 38
+GET http://localhost:8080/services/order/service/info
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{
-  "name": "error4",
-  "count": 404
-}
-
-<> 2024-03-02T113402.200.txt
+<> 2024-03-12T032707.404.json
 
 ###
 
-POST http://localhost:2222/product
-Content-Type: application/json
-Content-Length: 38
+GET http://localhost:8080/services/order/service/info
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{
-  "name": "error4",
-  "count": 404
-}
-
-<> 2024-03-02T113303.200.txt
+<> 2024-03-12T032706.404.json
 
 ###
 
-POST http://localhost:2222/product
-Content-Type: application/json
-Content-Length: 38
+GET http://localhost:8080/services/order/service/info
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{
-  "name": "error4",
-  "count": 404
-}
-
-<> 2024-03-02T113205.200.txt
+<> 2024-03-12T032704.404.json
 
 ###
 
-POST http://localhost:2222/product
-Content-Type: application/json
-Content-Length: 38
+GET http://localhost:8080/services/order/service/info
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{
-  "name": "error4",
-  "count": 404
-}
-
-<> 2024-03-02T113131.200.txt
+<> 2024-03-12T032701.404.json
 
 ###
 
-POST http://localhost:2222/product
-Content-Type: application/json
-Content-Length: 38
+GET http://localhost:8080/services/order/service/info
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{
-  "name": "error4",
-  "count": 404
-}
-
-<> 2024-03-02T111721.200.txt
+<> 2024-03-12T025438.200.json
 
 ###
 
-POST http://localhost:2222/product
-Content-Type: application/json
-Content-Length: 38
+GET http://localhost:8080/services/order/service/info
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{
-  "name": "error4",
-  "count": 404
-}
-
-<> 2024-03-02T111003.200.txt
+<> 2024-03-12T025340.200.json
 
 ###
 
-POST http://localhost:2222/product
-Content-Type: application/json
-Content-Length: 38
+GET http://localhost:8080/services/order/service/info
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{
-  "name": "error4",
-  "count": 404
-}
-
-<> 2024-03-02T110920.200.txt
+<> 2024-03-12T025339.404.json
 
 ###
 
-POST http://localhost:2222/product
-Content-Type: application/json
-Content-Length: 38
+GET http://localhost:8080/services/order/service/info
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{
-  "name": "error4",
-  "count": 404
-}
-
-<> 2024-03-02T110619.200.txt
+<> 2024-03-12T025338.404.json
 
 ###
 
-POST http://localhost:2222/product
-Content-Type: application/json
-Content-Length: 38
+GET http://localhost:8080/services/order/service/info
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{
-  "name": "error4",
-  "count": 404
-}
-
-<> 2024-03-02T105832.200.txt
+<> 2024-03-12T025337.404.json
 
 ###
 
-POST http://localhost:2222/product
-Content-Type: application/json
-Content-Length: 38
+GET http://localhost:8080/services/order/service/info
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{
-  "name": "error4",
-  "count": 404
-}
-
-<> 2024-03-02T105421.200.txt
+<> 2024-03-12T025336-1.404.json
 
 ###
 
-POST http://localhost:2222/product
-Content-Type: application/json
-Content-Length: 38
+GET http://localhost:8080/services/order/service/info
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{
-  "name": "error4",
-  "count": 404
-}
-
-<> 2024-03-02T105327.200.txt
+<> 2024-03-12T025336.404.json
 
 ###
 
-POST http://localhost:2222/product
-Content-Type: application/json
-Content-Length: 38
+GET http://localhost:8080/services/order/service/info
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{
-  "name": "error4",
-  "count": 404
-}
-
-<> 2024-03-02T105152.200.txt
+<> 2024-03-12T025334.404.json
 
 ###
 
-POST http://localhost:2222/product
-Content-Type: application/json
-Content-Length: 38
+GET http://localhost:8080/services/order/service/info
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{
-  "name": "error4",
-  "count": 404
-}
-
-<> 2024-03-02T105016.200.txt
+<> 2024-03-12T025333.404.json
 
 ###
 
-POST http://localhost:2222/product
-Content-Type: application/json
-Content-Length: 38
+GET http://localhost:8080/services/order/service/info
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{
-  "name": "error4",
-  "count": 404
-}
-
-<> 2024-03-02T104702.200.txt
+<> 2024-03-12T025330.404.json
 
 ###
 
-POST http://localhost:2222/product
-Content-Type: application/json
-Content-Length: 38
+GET http://localhost:8080/services/order/service/info
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{
-  "name": "error4",
-  "count": 404
-}
-
-<> 2024-03-02T103743.200.txt
+<> 2024-03-12T025126.200.json
 
 ###
 
-POST http://localhost:2222/product
-Content-Type: application/json
-Content-Length: 38
+GET http://localhost:8080/services/order/service/info
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{
-  "name": "error4",
-  "count": 404
-}
-
-<> 2024-03-02T103654.200.txt
+<> 2024-03-12T025120.200.json
 
 ###
 
-POST http://localhost:2222/product
-Content-Type: application/json
-Content-Length: 38
+GET http://localhost:8080/services/order/service/info
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{
-  "name": "error4",
-  "count": 404
-}
-
-<> 2024-03-02T103606.200.txt
+<> 2024-03-12T025036.404.json
 
 ###
 
-POST http://localhost:2222/product
-Content-Type: application/json
-Content-Length: 38
+GET http://localhost:8080/services/order/service/info
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{
-  "name": "error4",
-  "count": 404
-}
-
-<> 2024-03-02T103538.200.txt
+<> 2024-03-12T025030.404.json
 
 ###
 
-POST http://localhost:2222/product
-Content-Type: application/json
-Content-Length: 38
+GET http://localhost:2222/service/info
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{
-  "name": "error4",
-  "count": 404
-}
-
-<> 2024-03-02T103506.500.json
+<> 2024-03-12T025028.200.json
 
 ###
 
-POST http://localhost:2222/product
-Content-Type: application/json
-Content-Length: 38
+GET http://localhost:8080/services/order/service/info
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{
-  "name": "error4",
-  "count": 404
-}
-
-<> 2024-03-02T103320.200.txt
+<> 2024-03-12T025021.404.json
 
 ###
 
-POST http://localhost:2222/product
-Content-Type: application/json
-Content-Length: 38
+GET http://localhost:8080/services/order/service/info
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{
-  "name": "error4",
-  "count": 404
-}
-
-<> 2024-03-02T103239.200.txt
+<> 2024-03-12T025013.404.json
 
 ###
 
-POST http://localhost:2222/product
-Content-Type: application/json
-Content-Length: 38
+GET http://localhost:8080/services/order/service/info
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{
-  "name": "error4",
-  "count": 404
-}
-
-<> 2024-03-02T102956.200.txt
+<> 2024-03-12T024914.200.json
 
 ###
 
-POST http://localhost:2222/product
-Content-Type: application/json
-Content-Length: 38
+GET http://localhost:8080/services/order/service/info
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{
-  "name": "error4",
-  "count": 404
-}
-
-<> 2024-03-02T102823.200.txt
+<> 2024-03-12T024816.200.json
 
 ###
 
-POST http://localhost:2222/product
-Content-Type: application/json
-Content-Length: 38
+GET http://localhost:8080/services/order/service/info
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{
-  "name": "error4",
-  "count": 404
-}
-
-<> 2024-03-02T102655.200.txt
+<> 2024-03-12T024815.200.json
 
 ###
 

@@ -1,14 +1,12 @@
 
+b	java:S112M"FDefine and throw a dedicated exception instead of using a generic one.(Ώκ„Ί8“…να1
 
-java:S1186!"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(νΉ—Ϊ8–χÒρί1
+java:S1186$"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(νΉ—Ϊ8Ρ…να1
 d
-java:S6813"BRemove this field injection and use constructor injection instead.(υΊ—Φψÿÿÿÿ8—χÒρί1
+java:S6813""BRemove this field injection and use constructor injection instead.(υΊ—Φψÿÿÿÿ8Ρ…να1
 _
-java:S6813 "BRemove this field injection and use constructor injection instead.(™φ°Ζ8—χÒρί1
+java:S6813#"BRemove this field injection and use constructor injection instead.(™φ°Ζ8Ρ…να1
 R
-java:S2065"0Remove the "transient" modifier from this field.(υΊ—Φψÿÿÿÿ8™χÒρί1
+java:S2065""0Remove the "transient" modifier from this field.(υΊ—Φψÿÿÿÿ8Τ…να1
 M
-java:S2065 "0Remove the "transient" modifier from this field.(™φ°Ζ8™χÒρί1
-E	java:S108M")Either remove or fill this block of code.(”ύΎ8χÒρί1
-:
-java:S1128"Remove this duplicated import.(©ϋΪg8Ιώª‚α1
+java:S2065#"0Remove the "transient" modifier from this field.(™φ°Ζ8Τ…να1

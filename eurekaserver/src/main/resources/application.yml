@@ -1,0 +1,14 @@
+spring:
+
+  application:
+    name: eurekaserver
+  cloud:
+    config:
+      enabled: false
+
+server:
+  port: 8761
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false

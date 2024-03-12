@@ -1,6 +1,8 @@
 package com.example.payment.api.command.aggregate;
 
+import com.example.core.commands.CancelPaymentCommand;
 import com.example.core.commands.ValidatePaymentCommand;
+import com.example.core.events.PaymentCancelledEvent;
 import com.example.core.events.PaymentEvent;
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
@@ -27,8 +29,6 @@ public class PaymentAggregate {
     public PaymentAggregate(ValidatePaymentCommand validatePaymentCommand) {
         this.productId = validatePaymentCommand.getProductId();
         this.userId = validatePaymentCommand.getUserId();
-        log.info("validation payment command received ", validatePaymentCommand.getProductId());
-
         PaymentEvent paymentEvent = new PaymentEvent();
         BeanUtils.copyProperties(validatePaymentCommand, paymentEvent);
         AggregateLifecycle.apply(paymentEvent);
@@ -41,5 +41,18 @@ public class PaymentAggregate {
         this.userId = paymentEvent.getUserId();
         this.paymentId = paymentEvent.getPaymentId();
 
+    }
+
+
+    @CommandHandler
+    public void handleCancelPaymentCommand(CancelPaymentCommand cancelPaymentCommand) {
+        PaymentCancelledEvent paymentCancelledEvent = new PaymentCancelledEvent();
+        paymentCancelledEvent.setPaymentId(cancelPaymentCommand.getPaymentId());
+        AggregateLifecycle.apply(paymentCancelledEvent);
+    }
+
+    @EventSourcingHandler
+    public void  onCancelPaymentCommand(PaymentCancelledEvent event) {
+        this.productId = event.getProductId();
     }
 }

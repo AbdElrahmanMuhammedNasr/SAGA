@@ -1,5 +1,6 @@
 package com.example.eventdriven.domain;
 
+import com.example.eventdriven.entity.BaseEntity;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -11,7 +12,7 @@ import java.io.Serializable;
 @NoArgsConstructor
 @Entity
 @Table(name = "order_product")
-public class Order  implements Serializable {
+public class Order   extends BaseEntity implements Serializable {
 
     public static final long serialVersionUID = 1L;
 

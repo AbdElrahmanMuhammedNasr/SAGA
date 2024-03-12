@@ -1,0 +1,54 @@
+spring:
+  config:
+    import: "optional:configserver:http://localhost:3030/"
+  profiles:
+    active: prod
+  application:
+    name: order
+  datasource:
+    url: jdbc:postgresql://localhost:5555/event?currentSchema=order&useSSL=false
+    username: root
+    password: rroot
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+
+server:
+  port: 2222
+
+logging:
+  level:
+    root: INFO
+    org.springframework: INFO
+    com.example: DEBUG
+    org.axonframework: INFO
+
+axon:
+  eventhandling:
+    processors:
+      name:
+        mode: tracking
+
+
+service:
+    name: event-service
+    createdBy: john.doe
+    createdAt: 2020-01-01
+    author:
+      name: John Doe
+      title: Software Engineer
+    url:
+      - http://localhost:2222
+      - http://localhost:3333
+
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

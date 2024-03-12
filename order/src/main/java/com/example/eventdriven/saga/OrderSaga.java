@@ -1,18 +1,21 @@
 package com.example.eventdriven.saga;
 
 
+ import com.example.core.commands.CancelPaymentCommand;
  import com.example.core.commands.ValidatePaymentCommand;
  import com.example.core.domain.ACUSer;
-import com.example.core.events.PaymentEvent;
-import com.example.core.querys.FindUserQuery;
+ import com.example.core.events.CancelProductEvent;
+ import com.example.core.events.PaymentCancelledEvent;
+ import com.example.core.events.PaymentEvent;
+ import com.example.core.querys.FindUserQuery;
 import com.example.eventdriven.api.command.command.CancelProductCommand;
 import com.example.eventdriven.api.command.command.CompleteProductCommand;
 import com.example.eventdriven.api.command.events.ProductCompleteEvent;
 import com.example.eventdriven.api.command.events.ProductCreatedEvent;
 import lombok.extern.slf4j.Slf4j;
-import org.axonframework.commandhandling.gateway.CommandGateway; import org.axonframework.commandhandling.gateway.CommandGateway;
+import org.axonframework.commandhandling.gateway.CommandGateway;
 
-import org.axonframework.messaging.responsetypes.ResponseTypes;
+ import org.axonframework.messaging.responsetypes.ResponseTypes;
 import org.axonframework.modelling.saga.EndSaga;
 import org.axonframework.modelling.saga.SagaEventHandler;
 import org.axonframework.modelling.saga.StartSaga;
@@ -64,26 +67,50 @@ public class OrderSaga {
             commandGateway.send(cancelProductCommand);
 
         }
+//        ////////////////////////////
 
         @SagaEventHandler(associationProperty = "productId")
         public void handle(PaymentEvent paymentEvent) {
 
                try {
-                       CompleteProductCommand completeProductCommand
+                   if(true)
+                        throw new Exception("something went wrong in sage paymenrt eent");
+
+                   CompleteProductCommand completeProductCommand
                                = CompleteProductCommand.builder()
                                .productId(paymentEvent.getProductId())
                                .build();
                        commandGateway.sendAndWait(completeProductCommand);
                }catch (Exception e){
-
+                        log.error("something went wrong in saga "+e.getMessage());
+                   cancelPaymentCommand(paymentEvent);
                }
-
         }
+    private void cancelPaymentCommand(PaymentEvent event) {
+        CancelPaymentCommand cancelPaymentCommand
+                = new CancelPaymentCommand(event.getPaymentId(), event.getProductId());
+
+        commandGateway.sendAndWait(cancelPaymentCommand);
+    }
 
         @SagaEventHandler(associationProperty = "productId")
         @EndSaga
         public void handle(ProductCompleteEvent event) {
                 log.info("End cycle " + event.getProductId());
         }
+
+    @SagaEventHandler(associationProperty = "productId")
+    public void handle(PaymentCancelledEvent event) {
+        log.info("PaymentCancelledEvent in Saga for " + event.getProductId());
+        cancelProduct(event.getProductId());
+    }
+
+    @SagaEventHandler(associationProperty = "productId")
+    @EndSaga
+    public void handle(CancelProductEvent event) {
+        log.info("OrderCancelledEvent in Saga for Order Id : {}",
+                event.getProductId());
+    }
+
 
 }
